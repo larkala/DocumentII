@@ -2,7 +2,7 @@ package element;
 
 import java.util.ArrayList;
 
-import elementfactory.ElementType;
+import elementenum.ElementType;
 
 @SuppressWarnings("rawtypes")
 public class List extends Element<ArrayList<Element>, Element>{

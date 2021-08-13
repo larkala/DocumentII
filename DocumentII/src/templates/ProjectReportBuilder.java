@@ -8,10 +8,6 @@ import command.WriteListCommand;
 import command.WriteParagraphCommand;
 import command.WriteTitleCommand;
 import element.Document;
-import element.Element;
-import element.List;
-import elementfactory.ElementFactory;
-import elementfactory.ElementType;
 
 public class ProjectReportBuilder implements DocumentBuilder{
 

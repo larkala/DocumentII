@@ -1,6 +1,6 @@
 package element;
 
-import elementfactory.ElementType;
+import elementenum.ElementType;
 import exceptions.ElementException;
 
 public abstract class Element<T1,T2> {

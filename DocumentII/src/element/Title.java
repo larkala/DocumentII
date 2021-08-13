@@ -1,6 +1,6 @@
 package element;
 
-import elementfactory.ElementType;
+import elementenum.ElementType;
 
 public class Title extends Element<String, String>{ 
 

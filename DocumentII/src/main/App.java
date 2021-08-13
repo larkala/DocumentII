@@ -1,9 +1,6 @@
 package main;
 
 import element.Document;
-import element.Element;
-import element.List;
-import elementfactory.ElementFactory;
 import formatfactory.HTMLFactory;
 import formatfactory.MarkDownFactory;
 import templates.ProjectReportBuilder;
