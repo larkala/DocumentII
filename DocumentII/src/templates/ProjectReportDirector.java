@@ -15,5 +15,4 @@ public class ProjectReportDirector {
 			.addReference("K. Capova et al., Electromagnetic Nondestructive Evaluation (XVII), Amsterdam: IOS Press, 2014.")
 			.build();
 	}
-	
 }

@@ -18,6 +18,6 @@ public class App {
 		director.direct();
 		Document myReport = builder.getResult();
 		
-		new MarkDownFactory().convertAndRender("project report markdown", myReport);
+		new HTMLFactory().convertAndRender("project report html", myReport);
 	}
 }

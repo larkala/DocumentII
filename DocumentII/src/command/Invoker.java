@@ -28,7 +28,7 @@ public class Invoker {
 			return;
 		else {
 			index--;
-			commandList.get(index).undoIt(doc);
+			commandList.get(index-1).undoIt(doc);
 		}
 	}
 
@@ -37,8 +37,9 @@ public class Invoker {
 			return;
 
 		//If the pointer is at the end of the list, repeat the command again and increase the index
-		if (index < commandList.size()) {
-			addCommand(commandList.get(index));
+		if (index == commandList.size()) {
+			CommandInterface copy = commandList.get(index-1);
+			addCommand(copy);
 			index++;
 		}
 	}

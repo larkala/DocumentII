@@ -18,6 +18,8 @@ public class WriteListCommand implements CommandInterface{
 	 * @param listcontent Strings to create the list from.
 	 */
 	public WriteListCommand(ArrayList<String> listcontent) {
+		if (listcontent.isEmpty())
+			list.addContent(new Paragraph("no list items"));
 		for(String content: listcontent)
 			list.addContent(new Paragraph(content));
 	}
