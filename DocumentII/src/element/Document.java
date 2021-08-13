@@ -40,5 +40,12 @@ public class Document extends Element<ArrayList<Element>, Element>{
 		return ElementType.DOCUMENT;
 	}
 	
+	/**
+	 * Removes the last element that was added to the document
+	 */
+	public void removeLast() {
+		document.remove(document.size()-1);
+	}
+	
 	
 }
